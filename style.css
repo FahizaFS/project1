@@ -1,0 +1,721 @@
+ol, ul {
+	list-style: none;
+}
+body {
+	font-family: "poppinsregular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+@font-face {
+    font-family: 'poppinsblack_italic';
+    src: url('./fonts/poppins-blackitalic-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('./fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url('./fonts/poppins-bolditalic-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('./fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url('./fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('./fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('./fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('./fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+a:link {
+    text-decoration: none;
+  }
+header{
+    background: #fff;
+    padding:10px;
+}
+header section.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header section.wrapper h1.left{
+    
+}
+header section.wrapper h1.left a{
+    width: 25%;
+}
+header section.wrapper h1.left a img{
+    display: block;
+    width: 100%;
+}
+header section.wrapper nav.middle{
+    width: 50%;
+}
+header section.wrapper nav.middle ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header section.wrapper nav.middle ul li{
+    width: 105px;
+    text-align: center;
+}
+header section.wrapper nav.middle ul li a{
+    color:#1C2C40;
+}
+header section.wrapper nav.middle ul li a:hover{
+    color:#000;
+    text-decoration: underline;
+    font-weight: 600;
+}
+header section.wrapper nav.right{
+    width: 20%;
+}
+header section.wrapper nav.right ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+header section.wrapper nav.right ul li{
+    text-align: center;
+}
+header section.wrapper nav.right ul li a{
+    color:#000;
+    font-weight: 600;
+}
+header section.wrapper nav.right ul li a.button{
+    padding:15px 20px;
+    border-radius: 5px;
+    border:2px solid #808285;
+}
+#spotlight{
+    background: #fff;
+    padding:30px;
+}
+#spotlight section.wrapper{}
+#spotlight section.wrapper section.top{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+#spotlight section.wrapper section.top div.left{
+    width: 50%;
+}
+#spotlight section.wrapper section.top div.left h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#spotlight section.wrapper section.top div.left p{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+#spotlight section.wrapper section.top div.left ul{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+#spotlight section.wrapper section.top div.left ul li.button{
+    margin-left: -40px;
+}
+#spotlight section.wrapper section.top div.left  ul li.button a.button{
+    color: #fff;
+    font-weight: 500;
+    padding:10px 30px;
+    background: #000;
+}
+
+#spotlight section.wrapper section.top div.left ul li{
+    margin-left: 20px;
+    font-weight: 600;
+}
+#spotlight section.wrapper section.top div.left ul li.img{
+    
+    margin-left: 10px;
+    width:40px;
+
+}
+#spotlight section.wrapper section.top div.left ul li.img a{}
+
+#spotlight section.wrapper section.top div.left ul li.img a img{
+    display: block;
+    width: 100%;    
+}
+#spotlight section.wrapper section.top div.right{
+    width: 60%;
+    position: absolute;
+    top:-88px;
+    right:-100px;
+}
+#spotlight section.wrapper section.top div.right img{
+    display: block;
+    width: 70%;
+}
+#spotlight section.wrapper section.bottom{
+    padding:20% 20% 0;
+    text-align: center;
+    opacity: 0.6;
+}
+#spotlight section.wrapper section.bottom p{}
+#spotlight section.wrapper section.bottom p b{
+    color: #000;
+    opacity: 1;
+}
+
+#spotlight section.wrapper section.bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#spotlight section.wrapper section.bottom ul li{
+    width: 15%;
+}
+#spotlight section.wrapper section.bottom ul li img{
+    display: block;
+    width: 100%;
+}
+#spotlight section.wrapper section.bottom ul li.img img{
+    display: block;
+    width: 60%;
+}
+#about{
+    padding:40px 30px 0;
+    background:rgb(252, 250, 244);
+}
+#about section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about section.wrapper section.left{
+    width: 40%;
+}
+#about section.wrapper section.left h5{
+    font-size: 20px;
+    opacity: 0.5;
+}
+#about section.wrapper section.left h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+#about section.wrapper section.left div.img{
+    width: 80%;
+}
+#about section.wrapper section.left div.img img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+#about section.wrapper section.right{
+    width:50%;
+    text-align: left;
+    margin-top: 200px;
+}
+#about section.wrapper section.right div{
+    
+}
+
+#about section.wrapper section.right  div p{
+    
+}
+#about section.wrapper section.right ul{
+    padding:20px 0;
+}
+#about section.wrapper section.right ul li{
+    display: flex;
+	line-height: 1.9em;
+    align-items: center;
+}
+#about section.wrapper section.right ul li div{
+    width:15px;
+    margin-right: 10px;
+    margin-left: -40px;
+}
+#about section.wrapper section.right ul li div img{
+    display: block;
+    width: 100%;
+}
+#about section.wrapper section.right ul.bg{
+    background: #D5FA52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px;
+    border-radius: 10px;
+}
+#about section.wrapper section.right ul.bg li{
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+    line-height: .3;
+}
+#about section.wrapper section.right ul.bg li:nth-child(2n){
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    width: 30%;
+}
+
+#about section.wrapper section.right ul.bg li h4{
+    font-size: 28px;
+    font-weight: 600;
+}
+#about section.wrapper section.right ul.bg li small{
+    font-weight: 550; 
+}
+#services{
+    padding:10px;
+    background: #fff;
+}
+#services section.top{}
+#services section.top section.wrapper{
+    padding:30px;
+}
+#services section.top section.wrapper h5{
+    font-size: 20px;
+    opacity: .5;
+}
+#services section.top section.wrapper h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#services section.top section.wrapper ul{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+    width:80%;
+    margin: 0 auto;
+    padding-top:50px;
+
+}
+#services section.top section.wrapper ul li{
+    border:2px solid #afacac;
+    width: 25%;
+    text-align: left;
+    padding:20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position:relative;
+}
+#services section.top section.wrapper ul li div.hover {
+    display:none;
+
+    
+}
+#services section.top section.wrapper ul li:hover{
+    background: #D5FA52;
+    border:none;
+    /* width:20%; */
+    /* height:100%; */
+    /* position:absolute; */
+    bottom: 0;
+
+}
+#services section.top section.wrapper ul li:hover div.hover{
+    background: #D5FA52;
+    display:block;
+    position: absolute;
+    bottom:0;
+   
+}
+
+#services section.top section.wrapper ul li div.img{
+    
+   width:50px;
+}
+    
+#services section.top section.wrapper ul li div.img img{
+    display: block;
+    width: 100%;
+}
+#services section.top section.wrapper ul li h4{
+    font-size: 20px;
+}
+#services section.top section.wrapper ul li p{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+#services section.top section.wrapper ul li a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: underline;
+    font-weight: 600;
+}
+#services section.bottom{
+    
+}
+#services section.bottom section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0 40px;
+}
+#services section.bottom section.wrapper h2{
+    line-height: 1.6;
+}
+#services section.bottom section.wrapper a{
+    color: #fff;
+    background: #000;
+    padding:15px 25px;
+
+}
+#pricing{
+    background:rgb(252, 250, 244);
+    padding:20px;
+}
+#pricing section.wrapper{}
+#pricing section.wrapper section.top{
+    text-align: center;
+}
+#pricing section.wrapper section.top h5{
+    font-size: 20px;
+    opacity: .5;
+}
+#pricing section.wrapper section.top h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+#pricing section.wrapper section.top div.middle{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#pricing section.wrapper section.top div.middle span{
+    font-size: 16px;
+    font-weight: 600;
+}
+#pricing section.wrapper section.top div.middle div.img{
+    width: 30px;
+}
+#pricing section.wrapper section.top div.middle div.img img{
+    display: block;
+    width: 100%;
+}
+#pricing section.wrapper section.top div.middle small{
+    font-size: 16px;
+    opacity:.5;
+}
+#pricing section.wrapper section.top div.middle div.bg{
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(255, 238, 0);
+    padding:10px 15px;
+    border-radius: 20px;
+}
+#pricing section.wrapper section.bottom{}
+#pricing section.wrapper section.bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+}
+#pricing section.wrapper section.bottom ul li{
+    width: 30%;
+    
+    
+}
+#pricing section.wrapper section.bottom ul li div.hover{
+    display: none;
+    /* clip-path: polygon(49% 100%, 57% 83%, 88% 84%, 100% 73%, 100% 14%, 88% 1%, 12% 1%, 0% 13%, 0% 73%, 13% 82%, 38% 84%); */
+    background: #D5FA52;
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+   border-radius: 20px;
+
+   /* padding: 2px 0; */
+   position: relative;
+}
+#pricing section.wrapper section.bottom ul li div.hover::after {
+    position: absolute;
+    content:"";
+    border-left:10px solid #D5FA52;
+    border-right:10px solid transparent;
+    border-top:10px solid #D5FA52;
+    border-bottom:10px solid transparent;
+    top: 30px;
+}
+#pricing section.wrapper section.bottom ul li div.hover p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    
+
+}
+
+#pricing section.wrapper section.bottom ul li:hover div.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pricing section.wrapper section.bottom ul li div.list{
+    background: #fff;
+    text-align: center;
+    padding:20px 0;
+    margin-top:20px;
+}
+#pricing section.wrapper section.bottom ul li:hover div.list {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+#pricing section.wrapper section.bottom ul li div.list h4{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+#pricing section.wrapper section.bottom ul li div.list p {
+    font-size: 16px;
+    color:#acaeaf;
+    margin-top: -25px;
+}
+#pricing section.wrapper section.bottom ul li div.list p b {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+#pricing section.wrapper section.bottom ul li:hover div.list p b {
+    color: #fff;
+}
+
+#pricing section.wrapper section.bottom ul li div.list ul.inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    
+}
+#pricing section.wrapper section.bottom ul li div.list ul.inner li {
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color:#acaeaf;
+    
+}
+#pricing section.wrapper section.bottom ul li div.list ul.inner li   div.img{
+    width: 20px;
+    margin-right: 20px;
+    
+}
+#pricing section.wrapper section.bottom ul li div.list ul.inner li  div.img img{
+    display: block;
+    width: 100%;
+    filter: brightness(0.9) invert(0.7) sepia(0.5) hue-rotate(40deg) saturate(900%);
+}
+#pricing section.wrapper section.bottom ul li div.list div.save{
+    margin-top: 40px;
+    font-weight: 600;
+    background: #d8d8d8;
+    color: #000;
+    padding:5px 8px;
+    border-radius: 20px;
+    width:25%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#pricing section.wrapper section.bottom ul li div.list a.button{
+    display: block;
+    padding:15px 25px;
+    color: #fff;
+    background:#a3a3a3;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-weight: 600;
+}
+#pricing section.wrapper section.bottom ul li:hover div.list a.button {
+    background: #D5FA52;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
