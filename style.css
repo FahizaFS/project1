@@ -760,6 +760,80 @@ header section.wrapper nav.right ul li a.button{
     font-size: 12px;
     opacity:.5;
 }
+#contact{
+    background: #fff;
+    padding:30px;
+}
+#contact section.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact section.wrapper div.right{
+    width: 40%;
+}
+#contact section.wrapper div.right div.image{
+    
+    width: 100%;
+}
+#contact section.wrapper div.right div.image img{
+    display: block;
+    width: 100%;
+}
+#contact section.wrapper div.left{
+    width: 40%;
+}
+#contact section.wrapper div.left h5{
+    font-size: 20px;
+    opacity:.5;
+}
+#contact section.wrapper div.left h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.6;
+}
+#contact section.wrapper div.left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact section.wrapper div.left ul li{
+    margin:0 auto;
+    width:30%;
+    text-align: left;
+   
+}
+#contact section.wrapper div.left ul li div.contactimage{
+    background: #000;
+    padding: 15px 20px;
+    border-radius: 50%;
+    width:20px;
+    z-index: 1;
+}
+#contact section.wrapper div.left ul li div.contactimage img{
+    display: block;
+    width: 50%;
+}
+#contact section.wrapper div.left ul li span{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+#contact section.wrapper div.left ul li small{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
