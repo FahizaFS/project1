@@ -286,7 +286,7 @@ header section.wrapper nav.right ul li a.button{
     width: 60%;
 }
 #about{
-    padding:40px 30px 0;
+    padding: 75px;
     background:rgb(252, 250, 244);
 }
 #about section.wrapper{
@@ -295,7 +295,7 @@ header section.wrapper nav.right ul li a.button{
     align-items: center;
 }
 #about section.wrapper section.left{
-    width: 40%;
+    width: 50%;
 }
 #about section.wrapper section.left h5{
     font-size: 20px;
@@ -308,6 +308,7 @@ header section.wrapper nav.right ul li a.button{
 }
 #about section.wrapper section.left div.img{
     width: 80%;
+    position: relative;
 }
 #about section.wrapper section.left div.img img{
     display: block;
@@ -315,19 +316,22 @@ header section.wrapper nav.right ul li a.button{
     border-radius: 10px;
 }
 #about section.wrapper section.right{
-    width:50%;
+    width:60%;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 0px;
 }
 #about section.wrapper section.right div{
     
 }
 
 #about section.wrapper section.right  div p{
-    
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 500;
 }
 #about section.wrapper section.right ul{
-    padding:20px 0;
+    margin-top:70px;
+   
 }
 #about section.wrapper section.right ul li{
     display: flex;
@@ -350,6 +354,10 @@ header section.wrapper nav.right ul li a.button{
     justify-content: space-between;
     padding:0px;
     border-radius: 10px;
+    position: absolute;
+    top: 1378px;
+    left: 441px;
+    width: 50%;
 }
 #about section.wrapper section.right ul.bg li{
     display: block;
@@ -408,12 +416,43 @@ header section.wrapper nav.right ul li a.button{
     position:relative;
 }
 #services section.top section.wrapper ul li div.hover {
-    display:none;
-
-    
+    display:none; 
+    position: absolute;
+    bottom: 0;   
+    z-index: 2;
+    height: 120%;
+    width: 100%;
 }
+#services section.top section.wrapper ul li div.hover div.img{
+    width:30px;
+    background: #fff;
+    padding:5px 10px;
+    border-radius: 50%;
+}
+#services section.top section.wrapper ul li div.hover div.img img{
+    display: block;
+    width: 100%;
+}
+#services section.top section.wrapper ul li div.hover h4{
+    font-size: 20px;
+}
+#services section.top section.wrapper ul li div.hover p{
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+#services section.top section.wrapper ul li div.hover a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+
+
 #services section.top section.wrapper ul li:hover{
-    background: #D5FA52;
+    /* background: #D5FA52; */
     border:none;
     /* width:20%; */
     /* height:100%; */
@@ -426,6 +465,7 @@ header section.wrapper nav.right ul li a.button{
     display:block;
     position: absolute;
     bottom:0;
+    left:0;
    
 }
 
@@ -606,12 +646,12 @@ header section.wrapper nav.right ul li a.button{
 }
 #pricing section.wrapper section.bottom ul li div.list ul.inner li {
     width: 100%;
-    font-size: 14px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     white-space: nowrap;
     color:#acaeaf;
-    
+    line-height:1.3;    
 }
 #pricing section.wrapper section.bottom ul li div.list ul.inner li   div.img{
     width: 20px;
@@ -633,6 +673,7 @@ header section.wrapper nav.right ul li a.button{
     width:25%;
     margin: 0 auto;
     margin-top: 40px;
+    font-size: 14px;
 }
 #pricing section.wrapper section.bottom ul li div.list a.button{
     display: block;
@@ -644,6 +685,7 @@ header section.wrapper nav.right ul li a.button{
     margin-bottom: 20px;
     width: 60%;
     font-weight: 600;
+    font-size: 14px;
 }
 #pricing section.wrapper section.bottom ul li:hover div.list a.button {
     background: #D5FA52;
