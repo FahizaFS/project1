@@ -422,6 +422,7 @@ header section.wrapper nav.right ul li a.button{
     z-index: 2;
     height: 120%;
     width: 100%;
+    padding:20px;
 }
 #services section.top section.wrapper ul li div.hover div.img{
     width:30px;
@@ -460,6 +461,10 @@ header section.wrapper nav.right ul li a.button{
     bottom: 0;
 
 }
+/* #services section.top section.wrapper ul li :first-child :hover{
+    margin-bottom: 50px;
+} */
+
 #services section.top section.wrapper ul li:hover div.hover{
     background: #D5FA52;
     display:block;
@@ -690,6 +695,81 @@ header section.wrapper nav.right ul li a.button{
 #pricing section.wrapper section.bottom ul li:hover div.list a.button {
     background: #D5FA52;
 }
+#testimonial{
+    background: #fff;
+    padding:30px;
+    text-align: center;
+}
+#testimonial section.wrapper{}
+#testimonial section.wrapper h5{
+    font-size: 20px;
+    opacity: .5;
+}
+#testimonial section.wrapper h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#testimonial section.wrapper ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+#testimonial section.wrapper ul li{
+    width: 25%;
+    text-align: left;
+    margin:0 auto;
+}
+#testimonial section.wrapper ul li div.company{
+    width: 30%;
+}
+#testimonial section.wrapper ul li div.company img{
+    display: block;
+    width: 100%;
+}
+#testimonial section.wrapper ul li p{
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#testimonial section.wrapper ul li div.bottom{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+#testimonial section.wrapper ul li div.bottom div.image{
+    width: 25px;
+    background: #fff;
+    border:1px dashed #808285;
+    margin-right: 10px;
+}
+#testimonial section.wrapper ul li div.bottom div.image img{
+    display: block;
+    width: 50%;
+}
+#testimonial section.wrapper ul li div.bottom span{
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+}
+#testimonial section.wrapper ul li div.bottom small{
+    font-size: 12px;
+    opacity:.5;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
