@@ -869,6 +869,65 @@ header section.wrapper nav.right ul li a.button{
     border: 1px solid #fff;
     margin-left: -136px;
 }
+footer{
+    background: #fff;
+    padding:20px;
+}
+footer section.wrapper{}
+footer section.wrapper section.top{
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer section.wrapper section.top div.one{
+    margin-top: 50px;
+    width: 20%;
+}
+footer section.wrapper section.top div.one div.logo{
+    width: 50%;
+}
+footer section.wrapper section.top div.one div.logo img{
+    display: block;
+    width: 100%;
+}
+footer section.wrapper section.top div.one p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+footer section.wrapper section.top div.item{
+    font-size: 24px;
+    font-weight: 600;
+    width: 25%;
+}
+footer section.wrapper section.top div.item ul{ }
+footer section.wrapper section.top div.item ul li { 
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+footer section.wrapper section.top div.item ul li a {
+    margin-bottom: 30px;
+} 
+
+footer section.wrapper section.top div span{}
+footer section.wrapper section.top div img{}
+footer section.wrapper section.top div small{}
+footer section.wrapper section.top div div.images{}
+footer section.wrapper section.top div div.images img{}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
