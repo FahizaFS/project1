@@ -1,6 +1,7 @@
 ol, ul {
 	list-style: none;
 }
+
 body {
 	font-family: "poppinsregular", Arial, Helvetica, sans-serif;
 	font-size: 17px;
@@ -206,13 +207,15 @@ header section.wrapper nav.right ul li a.button{
     width: 50%;
 }
 #spotlight section.wrapper section.top div.left h1{
-    font-size: 50px;
+    font-size: 44px;
     font-weight: 600;
     margin-bottom: 20px;
+    line-height: 1.3;
 }
 #spotlight section.wrapper section.top div.left p{
     font-weight: 600;
     font-size: 16px;
+    line-height: 1.2;
     margin-bottom: 50px;
 }
 #spotlight section.wrapper section.top div.left ul{
@@ -250,7 +253,7 @@ header section.wrapper nav.right ul li a.button{
 #spotlight section.wrapper section.top div.right{
     width: 60%;
     position: absolute;
-    top:-88px;
+    top:-83px;
     right:-100px;
 }
 #spotlight section.wrapper section.top div.right img{
@@ -260,12 +263,14 @@ header section.wrapper nav.right ul li a.button{
 #spotlight section.wrapper section.bottom{
     padding:20% 20% 0;
     text-align: center;
-    opacity: 0.6;
+    
 }
-#spotlight section.wrapper section.bottom p{}
+#spotlight section.wrapper section.bottom p{
+    color: #919191;
+}
 #spotlight section.wrapper section.bottom p b{
     color: #000;
-    opacity: 1;
+    
 }
 
 #spotlight section.wrapper section.bottom ul{
@@ -411,18 +416,29 @@ header section.wrapper nav.right ul li a.button{
     width: 25%;
     text-align: left;
     padding:20px;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-bottom: 20px;
     position:relative;
+}
+#services section.top section.wrapper ul li:first-child{
+    margin-bottom: 50px;
+}
+#services section.top section.wrapper ul li:nth-child(2){
+margin-bottom: 50px;
+}
+#services section.top section.wrapper ul li:nth-child(3){
+    margin-bottom: 50px;
 }
 #services section.top section.wrapper ul li div.hover {
     display:none; 
     position: absolute;
     bottom: 0;   
     z-index: 2;
-    height: 120%;
-    width: 100%;
+    height: 100%;
+    width: 87%;
     padding:20px;
+    border-radius: 6px;
+
 }
 #services section.top section.wrapper ul li div.hover div.img{
     width:30px;
@@ -453,17 +469,13 @@ header section.wrapper nav.right ul li a.button{
 
 
 #services section.top section.wrapper ul li:hover{
-    /* background: #D5FA52; */
     border:none;
-    /* width:20%; */
-    /* height:100%; */
-    /* position:absolute; */
-    bottom: 0;
+    
 
 }
-/* #services section.top section.wrapper ul li :first-child :hover{
+#services section.top section.wrapper ul:hover first-child{
     margin-bottom: 50px;
-} */
+}
 
 #services section.top section.wrapper ul li:hover div.hover{
     background: #D5FA52;
@@ -471,7 +483,7 @@ header section.wrapper nav.right ul li a.button{
     position: absolute;
     bottom:0;
     left:0;
-   
+    transition: all 3s ease-in-out;
 }
 
 #services section.top section.wrapper ul li div.img{
@@ -735,38 +747,60 @@ header section.wrapper nav.right ul li a.button{
     margin-bottom: 50px;
 }
 #testimonial section.wrapper ul li div.bottom{
-    /* display: flex;
-    justify-content: center;
+    display: flex;
+    /* justify-content: center; */
     align-items: center;
-    flex-wrap: wrap; */
+    
 }
 
-#testimonial section.wrapper ul li div.bottom div.image{
-    width: 25px;
+#testimonial section.wrapper ul li div.bottom div.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;justify-content: center;
+    align-items: center;
     background: #fff;
-    border:1px dashed #808285;
+    border:1px solid greenyellow;
     margin-right: 10px;
 }
-#testimonial section.wrapper ul li div.bottom div.image img{
+#testimonial section.wrapper ul li div.bottom div.img img{
     display: block;
-    width: 50%;
+    width: 80%;
+    height: 80%;
 }
-#testimonial section.wrapper ul li div.bottom span{
-    display: block;
+#testimonial section.wrapper ul li div.bottom div.text{
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonial section.wrapper ul li div.bottom div.text span{
+    display:inline-block ;
     font-size: 13px;
     font-weight: 600;
 }
-#testimonial section.wrapper ul li div.bottom small{
+#testimonial section.wrapper ul li div.bottom div.text small{
     font-size: 12px;
+    display: inline-block;
     opacity:.5;
 }
+#testimonial section.wrapper ul li div.bottom div.quote{
+    width: 40px;
+    margin-left: 35px;
+}
+#testimonial section.wrapper ul li div.bottom div.quote img{
+    display: block;
+    width: 100%;
+   
+}
+
+
 #contact{
     background: #fff;
     padding:30px;
 }
 #contact section.wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 #contact section.wrapper div.right{
@@ -786,43 +820,138 @@ header section.wrapper nav.right ul li a.button{
 #contact section.wrapper div.left h5{
     font-size: 20px;
     opacity:.5;
+    margin-bottom: 20px;
 }
 #contact section.wrapper div.left h2{
     font-size: 32px;
     font-weight: 800;
     line-height: 1.6;
+    margin-bottom: 20px;
 }
 #contact section.wrapper div.left ul{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding:0;
 }
 #contact section.wrapper div.left ul li{
-    margin:0 auto;
-    width:30%;
+    /* margin:0 auto; */
+    width:50%;
     text-align: left;
    
 }
 #contact section.wrapper div.left ul li div.contactimage{
     background: #000;
-    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    /* padding: 12px 24px; */
     border-radius: 50%;
-    width:20px;
-    z-index: 1;
+     width:40px; 
+     height: 40px;
+     z-index: -1;
 }
 #contact section.wrapper div.left ul li div.contactimage img{
     display: block;
     width: 50%;
+    filter: invert(1);
+  
 }
 #contact section.wrapper div.left ul li span{
     margin-top: 20px;
     font-size: 16px;
     font-weight: 600;
     display: block;
+    margin-bottom: 20px;
 }
 #contact section.wrapper div.left ul li small{
     margin-top: 10px;
+    display: block;
+    color: #808285;
+    margin-bottom: 10px;
 }
+#contact section.wrapper div.left form{
+    padding: 40px 0;
+}
+#contact section.wrapper div.left form div.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#contact section.wrapper div.left form div.top div.name{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#contact section.wrapper div.left form div.top div.name label.name{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+#contact section.wrapper div.left form div.top div.name input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #a3a3a3;
+    
+}
+#contact section.wrapper div.left form div.top div.number{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#contact section.wrapper div.left form div.top div.number label.number{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+#contact section.wrapper div.left form  div.top div.number input[type="number"]{
+    border:none; 
+    border-bottom: 1px solid #a3a3a3;
+}
+#contact section.wrapper div.left form div.bottom{
+    margin-top: 20px;
+}
+
+#contact section.wrapper div.left form  div.bottom div.mail{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contact section.wrapper div.left form  div.bottom div.mail label.mail{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+#contact section.wrapper div.left form  div.bottom div.mail input[type="email"]{
+    border:none;
+    border-bottom: 1px solid #a3a3a3;
+}
+#contact section.wrapper div.left form  div.bottom div.project{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contact section.wrapper div.left form  div.bottom div.project label.project{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+#contact section.wrapper div.left form  div.bottom div.project input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #a3a3a3;
+}
+#contact section.wrapper div.left a.button{
+    background: #000;
+    color: #fff;
+    padding:10px 15px;
+    font-size: 16px;
+    margin-left: 255px;
+}
+
+
+
+
 #subscribe{
     background:rgb(252, 250, 244);
     padding:20px;
@@ -856,7 +985,8 @@ header section.wrapper nav.right ul li a.button{
 #subscribe section.wrapper div form input{
     color: #afacac;
     background: #000;
-    padding:15px 100px;
+    width:45%;
+    padding:15px 25px;
     border-radius: 20px;
     border:1px solid #afacac;
     text-align: left;
@@ -880,18 +1010,19 @@ footer section.wrapper section.top{
     justify-content: center;
     align-items: center;
 }
-/* footer section.wrapper section.top div.one{
-    margin-top: 50px;
-    width: 20%;
-} */
-footer section.wrapper section.top div.item div.logo{
+footer section.wrapper section.top div.item1{
+    margin-right: 50px;
+    margin-top: -28px;
+    width: 30%;
+}
+footer section.wrapper section.top div.item1 div.logo{
     width: 50%;
 }
-footer section.wrapper section.top div.item div.logo img{
+footer section.wrapper section.top div.item1 div.logo img{
     display: block;
     width: 100%;
 }
-footer section.wrapper section.top div.item p{
+footer section.wrapper section.top div.item1 p{
     font-size: 12px;
     font-weight: 500;
     line-height: 1.6;
@@ -899,7 +1030,7 @@ footer section.wrapper section.top div.item p{
 footer section.wrapper section.top div.item{
     width: 40%;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 20px;
 
 }
@@ -908,7 +1039,9 @@ footer section.wrapper section.top div.item h3{
     font-weight: 600;
 }
 
-footer section.wrapper section.top div.item ul{ }
+footer section.wrapper section.top div.item ul{ 
+    padding:0;
+}
 footer section.wrapper section.top div.item ul li { 
     font-size: 14px;
     font-weight: 500;
@@ -919,47 +1052,77 @@ footer section.wrapper section.top div.item ul li a {
     color: #000;
    line-height: 3;
 } 
-/* footer section.wrapper section.top div.contact{
-    font-size: 18px;
-    font-weight: 600;
-    width: 30%;
-    text-align: left;
-    margin-top: 50px;
+footer section.wrapper section.top div.contact{
+    width: 40%;
+   margin-top: 35px;
     margin-bottom: 20px;
-    display: block;
-} */
-footer section.wrapper section.top div.item span{
+}
+footer section.wrapper section.top div.contact span{
     font-size: 14px;
     text-align: left;
     display: block;
     margin-bottom: 20px;
 }
-footer section.wrapper section.top div.item div.call{
+footer section.wrapper section.top div.contact div.call{
     display: flex;
     align-items: center;
 }
 
-footer section.wrapper section.top div.item div.call img{
-    
+footer section.wrapper section.top div.contact div.call img{
+    width: 20px;
 }
-footer section.wrapper section.top div.item div.call small{
+footer section.wrapper section.top div.contact div.call small{
     margin-left: 10px;
 }
-footer section.wrapper section.top div.item div.images{
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
+footer section.wrapper section.top div.contact div.images{
+display: flex;
+margin-top: 20px;
+align-items: center;
+    justify-content: space-between;
+    width:60%;
 }
-footer section.wrapper section.top div.item div.images img{
-    margin-right: 20px;
+footer section.wrapper section.top div.contact div.images div.fb{
+width: 40px;
 }
-footer section.wrapper section.top div.item div.images img:last-child{
+footer section.wrapper section.top div.contact div.images div.fb img{
+
+display: block;
+width: 100%;
+}
+footer section.wrapper section.top div.contact div.images div.ln{
+    width: 30px;
+    
+}
+footer section.wrapper section.top div.contact div.images div.ln img{
+    
+    display: block;
+    width: 100%;
+}
+footer section.wrapper section.top div.contact div.images div.tw{
+    width: 30px;
+    
+}
+footer section.wrapper section.top div.contact div.images div.tw img{
+    
+    display: block;
+    width: 100%;
+}
+footer section.wrapper section.top div.contact div.images div.ut{
+    width: 30px;
+   
+}
+footer section.wrapper section.top div.contact div.images div.ut img{
+    
+    display: block;
+    width: 100%;
+}
+/* footer section.wrapper section.top div.item div.images img:last-child{
     margin-right: 0px;
     width:27px;
 }
 footer section.wrapper section.top div.item div.images img:first-child{
     width:40px;
-}
+} */
 
 footer section.wrapper section.bottom{
     display: flex;
@@ -982,6 +1145,10 @@ footer section.wrapper section.bottom div.right ul{
 footer section.wrapper section.bottom div.right ul li{
     width: 20%;
 }
+footer section.wrapper section.bottom div.right ul li a {
+    color: #000;
+}
+
 
 
 
