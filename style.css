@@ -880,41 +880,114 @@ footer section.wrapper section.top{
     justify-content: center;
     align-items: center;
 }
-footer section.wrapper section.top div.one{
+/* footer section.wrapper section.top div.one{
     margin-top: 50px;
     width: 20%;
-}
-footer section.wrapper section.top div.one div.logo{
+} */
+footer section.wrapper section.top div.item div.logo{
     width: 50%;
 }
-footer section.wrapper section.top div.one div.logo img{
+footer section.wrapper section.top div.item div.logo img{
     display: block;
     width: 100%;
 }
-footer section.wrapper section.top div.one p{
-    font-size: 14px;
+footer section.wrapper section.top div.item p{
+    font-size: 12px;
+    font-weight: 500;
     line-height: 1.6;
 }
 footer section.wrapper section.top div.item{
-    font-size: 24px;
-    font-weight: 600;
-    width: 25%;
+    width: 40%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
 }
+footer section.wrapper section.top div.item h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 footer section.wrapper section.top div.item ul{ }
 footer section.wrapper section.top div.item ul li { 
     font-size: 14px;
     font-weight: 500;
-   
+    text-align: left;
 }
 footer section.wrapper section.top div.item ul li a {
     margin-bottom: 30px;
+    color: #000;
+   line-height: 3;
 } 
+/* footer section.wrapper section.top div.contact{
+    font-size: 18px;
+    font-weight: 600;
+    width: 30%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+} */
+footer section.wrapper section.top div.item span{
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+}
+footer section.wrapper section.top div.item div.call{
+    display: flex;
+    align-items: center;
+}
 
-footer section.wrapper section.top div span{}
-footer section.wrapper section.top div img{}
-footer section.wrapper section.top div small{}
-footer section.wrapper section.top div div.images{}
-footer section.wrapper section.top div div.images img{}
+footer section.wrapper section.top div.item div.call img{
+    
+}
+footer section.wrapper section.top div.item div.call small{
+    margin-left: 10px;
+}
+footer section.wrapper section.top div.item div.images{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+footer section.wrapper section.top div.item div.images img{
+    margin-right: 20px;
+}
+footer section.wrapper section.top div.item div.images img:last-child{
+    margin-right: 0px;
+    width:27px;
+}
+footer section.wrapper section.top div.item div.images img:first-child{
+    width:40px;
+}
+
+footer section.wrapper section.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+footer section.wrapper section.bottom div.left{
+    width: 40%;
+}
+footer section.wrapper section.bottom div.left p{}
+footer section.wrapper section.bottom div.right{
+    width: 25%;
+}
+footer section.wrapper section.bottom div.right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer section.wrapper section.bottom div.right ul li{
+    width: 20%;
+}
+
+
+
+
+
+
 
 
 
