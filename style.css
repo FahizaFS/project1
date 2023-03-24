@@ -1385,22 +1385,28 @@ footer section.wrapper section.bottom div.right ul li a {
     header section.wrapper nav.right {
         width: 22%;
     }
+    #spotlight section.wrapper section.top div.right {
+        right: -50px;
+        width: 50%;
+    }
+    #spotlight section.wrapper section.top div.left {
+        width: 40%;
+    }
+    #spotlight section.wrapper section.top div.right img {
+        display: block;
+        width: 100%;
+    }
     #spotlight section.wrapper section.top div.left ul li.button {
         margin-left: 0px; 
     }
     #spotlight section.wrapper section.top div.left ul li.button {
         width: 200px;
     }
-    #spotlight section.wrapper section.top div.left {
-        width: 60%;
-    }
+    
     #spotlight section.wrapper section.top div.left ul li {
         width: 55%;
     }
-    #spotlight section.wrapper section.top div.right {
-        right: -130px;
-        width: 60%;
-    }
+    
     #about section.wrapper section.left h3 {
         font-size: 20px;
     }
@@ -1446,7 +1452,9 @@ footer section.wrapper section.bottom div.right ul li a {
         width: 55%;
     }
     #pricing section.wrapper section.bottom ul {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #pricing section.wrapper section.bottom ul li {
         width: 60%;
@@ -1457,11 +1465,25 @@ footer section.wrapper section.bottom div.right ul li a {
     #services section.bottom section.wrapper {
         width: 80%;
     }
+    #services section.top section.wrapper ul li:first-child{
+        margin-bottom: 0;
+    }
+    #services section.top section.wrapper ul li:nth-child(2){
+        margin-bottom: 0;
+    }  
+    #services section.top section.wrapper ul li:nth-child(3)
+    {
+        margin-bottom: 0;
+    }
+    #services section.top section.wrapper ul li {
+        margin-bottom: 0;
+    }
+    
     #testimonial section.wrapper ul {
-        display: block;
+       flex-wrap: wrap;
     }
     #testimonial section.wrapper ul li {
-        width: 50%;
+        width: 60%;
         margin-bottom: 50px;
     }
     #testimonial section.wrapper ul li p {
@@ -1477,18 +1499,81 @@ footer section.wrapper section.bottom div.right ul li a {
     #contact section.wrapper div.right div.image {
         display: none;
     }
-    #contact section.wrapper div.left ul {
-        display: block;
+    #contact section.wrapper div.left{
+        width: 100%;
     }
+    
     #contact section.wrapper div.left ul li {
         margin-bottom: 40px;
     }
     #contact section.wrapper div.left ul li small {
         white-space: nowrap;
     }
+    #contact section.wrapper div.left a.button {
+        margin-left: 180px;
+    }
+    footer section.wrapper section.top {
+        flex-wrap: wrap;
+    }
+    footer section.wrapper section.top div.item1 {
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+    justify-content: space-around;
+    }
+    footer section.wrapper section.top div.item1 div.logo {
+        width: 25%;
+    }
+    footer section.wrapper section.top div.item1 p {
+        font-size: 14px;
+    }
+    footer section.wrapper section.top div.item {
+        margin-top: 10px;
+        width: 40%;
+    }
+    footer section.wrapper section.top div.contact {
+        padding: 10px;
+        width: 100%;
+    }
+    footer section.wrapper section.top div.contact div.images {
+        width: 75%;
+    }
+    footer section.wrapper section.bottom{
+        width: 80%;
+    }
+    footer section.wrapper section.bottom div.right ul {
+        padding:0;
+    }
+    footer section.wrapper section.top div.contact {
+        padding:50px;
+    }
 
 }
-@media all and (max-width:640px) {}
+@media all and (max-width:640px) {
+    header section.wrapper nav.middle{
+        display: none;
+    }
+    header section.wrapper h1.left {
+        width: 30%;
+    }
+    header section.wrapper nav.right {
+        width: 45%;
+    }
+    #spotlight section.wrapper section.top div.left h1 {
+        font-size: 24px;
+    }
+    #spotlight section.wrapper section.top div.left ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #spotlight section.wrapper section.top div.left ul li.button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #spotlight section.wrapper section.top div.left ul li {
+        width: 100%;
+    }
+}
 @media all and (max-width:480px) {}
 @media all and (max-width:360px) {}
 
