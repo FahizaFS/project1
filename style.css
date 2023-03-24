@@ -1211,6 +1211,46 @@ footer section.wrapper section.bottom div.right ul li a {
     #testimonial section.wrapper ul li div.bottom div.text {
         width: 36%;
     }
+    #contact section.wrapper div.right div.image {
+        margin-top: -110px;
+        width: 110%;
+    }
+    #about {
+        padding: 60px;
+    }
+    #contact section.wrapper div.left h2 {
+        font-size: 29px;
+    }
+    #contact section.wrapper div.left form {
+        padding:20px 0;
+    }
+    #contact section.wrapper div.left a.button {
+        margin-left: 100px;
+    }
+    #subscribe section.wrapper {
+        padding: 60px 20px;
+    }
+    #subscribe section.wrapper div {
+        padding:35px;
+    }
+    footer {
+        padding:10px;
+    }
+    footer section.wrapper section.top div.item1{
+        margin-top: -90px;
+    }
+    footer section.wrapper section.top div.item {
+        margin-top: -6px;
+    }
+    footer section.wrapper section.top div.contact {
+        margin-top: -73px;
+    }
+    footer section.wrapper section.top div.item1 div.logo {
+        width: 60%;
+    }
+    footer section.wrapper section.top div.contact div.images {
+        width: 75%;
+    }
 }
 @media all and (max-width:980px) {}
 @media all and (max-width:768px) {}
