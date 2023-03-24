@@ -1165,8 +1165,14 @@ footer section.wrapper section.bottom div.right ul li a {
     header section.wrapper nav.right {
         width: 28%;
     }
-    #spotlight section.wrapper section.top div.right{
-        top:-55px;
+    #spotlight section.wrapper section.top div.right {
+        top: -65px;
+        right: -20px;
+        width: 45%;
+    }
+    #about section.wrapper section.right ul.bg {
+        top: 1517px;
+        left: 540px;
     }
     #about section.wrapper section.right div p {
         margin-top: 100px;
@@ -1179,12 +1185,6 @@ footer section.wrapper section.bottom div.right ul li a {
     }
     #about section.wrapper section.left div.img {
         width: 90%;
-    }
-    #about section.wrapper section.right ul.bg {
-        
-        padding: 12px;
-        width: 50%;
-        height: 80px;
     }
     #pricing section.wrapper section.top div.middle {
         width: 35%;
@@ -1305,10 +1305,13 @@ footer section.wrapper section.bottom div.right ul li a {
         font-size: 14px;
     }
     #about section.wrapper section.right ul.bg {
-        padding: 10px;
-        top: 972px;
-        left: 353px;
+        top: 1094px;
+        left: 331px;
+        width: 50%;
+        height: 94px;
+    
     }
+      
     #about section.wrapper section.right ul.bg li {
         width: 20%;
     }
@@ -1419,12 +1422,9 @@ footer section.wrapper section.bottom div.right ul li a {
     #about {
         padding: 10px 0 70px;
     }
+    
     #about section.wrapper section.right ul.bg {
-        padding: 10px;
-        top: 950px;
-        left: 301px;
-        width: 40%;
-        height: 60px;
+        top: 1028px;
     }
     #about section.wrapper section.right ul.bg li h4 {
         font-size: 20px;
@@ -1595,10 +1595,10 @@ footer section.wrapper section.bottom div.right ul li a {
     #about section.wrapper section.right div p {
         margin-bottom: 20px;
     }
+   
     #about section.wrapper section.right ul.bg {
-        padding: 10px;
-        top: 1201px;
-        left: 208px;
+        top: 1358px;
+        left: 238px;
     }
     #services section.top section.wrapper {
         padding: 30px;
@@ -1685,25 +1685,141 @@ footer section.wrapper section.bottom div.right ul li a {
 
 }
 @media all and (max-width:480px) {
+    
+    
     #about section.wrapper section.right ul.bg {
         padding: 10px;
-        top: 1268px;
-        left: 90px;
-    }
-    #about section.wrapper section.right ul.bg {
-       
-        top: 1268px;
-        left: 90px;
+        top: 1154px;
+        left: 164px;
         flex-direction: column;
-        height: 200px;
+        height: 152px;
+        width: 40%;
         align-items: center;
     }
+      
     #about section.wrapper section.right ul.bg li:nth-child(2n) {
         border-left: 0;
          border-right: 0;
     }
+    #spotlight section.wrapper section.top div.right {
+        display: none;
+    }
+    #spotlight section.wrapper section.top div.left {
+        width: 100%;
+    }
+    #spotlight section.wrapper section.top div.left p {
+        font-size: 13px;
+    }
+    #about section.wrapper section.left h3 {
+        font-size: 16px;
+    }
+    
+    #about section.wrapper section.right ul.bg li {
+        margin: 0;
+        width: 100%;
+    }
+    #about section.wrapper section.right ul.bg li:nth-child(2n) {
+        
+        width: 100%;
+    }
+    #about section.wrapper section.right div p {
+        margin-top: 220px;
+    }
+    #about section.wrapper section.right {
+        width: 80%;
+        text-align: center;
+    }
+    #about section.wrapper section.right ul {
+        font-size: 14px;
+        padding: 0;
+        margin-left: 35px;
+    }
+    #services section.top section.wrapper h3 {
+        font-size: 28px;
+    }
+    #services section.top section.wrapper ul li:first-child {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #services section.top section.wrapper ul li:nth-child(2) {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #services section.top section.wrapper ul li:nth-child(3) {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #services section.top section.wrapper ul li {
+        width: 100%;
+    }
+    #services section.bottom section.wrapper h2 {
+
+        width: 100%;
+        white-space: nowrap;
+    }
+    #pricing section.wrapper section.top h2 {
+        font-size: 20px;
+    }
+    #pricing section.wrapper section.top div.middle {
+        width: 70%;
+        flex-direction: column;
+    }
+    #pricing section.wrapper section.bottom ul li {
+        width: 100%;
+    }
+    #pricing section.wrapper section.bottom ul li div.list ul.inner {
+        margin: 30px;
+    }
+    #testimonial section.wrapper h2 {
+        font-size: 24px;
+    }
+    #testimonial section.wrapper ul li {
+        width: 70%;
+    }
+    #testimonial {
+       
+        padding: 5px;
+    }
+    footer section.wrapper section.top div.item1 div.logo {
+        width: 70%;
+    }
+    footer section.wrapper section.top div.item1 p {
+        margin-left: 20px;
+        width: 100%;
+    }
+    footer section.wrapper section.top div.item {
+        
+        width: 100%;
+    }
+    footer section.wrapper section.top div.item {
+        width: 100%;
+        display: flex;  
+    }
+
+    footer section.wrapper section.top div.item ul li{
+        margin-left: 30px;
+    }
+    footer section.wrapper section.bottom div.right ul li{
+        margin-left: 0;
+    }
+    #services section.bottom section.wrapper h2 {
+        width: 122%;
+    }
+    
+    
+    
 }
-@media all and (max-width:360px) {}
+@media all and (max-width:360px) {
+    #about section.wrapper section.right ul.bg {
+        padding: 10px;
+        top: 1080px;
+        left: 96px;
+        flex-direction: column;
+        height: 152px;
+        width: 40%;
+        align-items: center;
+    }
+}
 
 
 
